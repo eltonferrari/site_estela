@@ -1,0 +1,109 @@
+@import 'variaveis';
+
+// FONTES PADRÃO
+
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+// TIPOS DE FONTES
+@font-face {
+	font-family: "Dancing";
+	src: url('../fonts/DancingScript-VariableFont_wght.ttf');
+}
+
+.font-dancing {
+	font-family: "Dancing";
+	font-weight: 700;
+}
+
+//TAMANHOS DE FONTES
+.font-size-14 {
+	font-size: 14px;
+}
+
+.font-size-16 {
+	font-size: 16px;
+}
+
+.font-size-18 {
+	font-size: 18px;
+}
+
+.font-size-20 {
+	font-size: 20px;
+}
+
+.font-size-22 {
+	font-size: 22px;
+}
+
+.font-size-24 {
+	font-size: 24px;
+}
+
+.font-size-26 {
+	font-size: 26px;
+}
+
+.font-size-28 {
+	font-size: 28px;
+}
+
+.font-size-32 {
+	font-size: 32px;
+}
+
+// CORES DE FONTES
+.cor-1 {
+	color: $cor-1;
+}
+
+.cor-2 {
+	color: $cor-2;
+}
+
+.cor-3 {
+	color: $cor-3;	
+}
+
+.cor-branco {
+	color: $branco;
+}
+
+.cor-preto {
+	color: $preto;
+}
+
+// NEGRITO
+.negrito {
+	font-weight: bold;
+}
+
+// LINHA EM BAIXO
+.underline {
+	text-decoration: underline;
+}
+
+// CARACTERES ANIMADOS
+.animate-character {
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-emphasis-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	font-weight: bold;
+	animation: textclip 2s linear infinite;
+	text-transform: uppercase;
+	background-image: linear-gradient(
+		-225deg,
+   		$cor-1 0%,
+    	$cor-3 34%,
+		$cor-2 66%
+	);
+	font-size: 50px;
+}

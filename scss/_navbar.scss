@@ -1,0 +1,18 @@
+@import 'variaveis';
+
+// NAVBAR
+.bg-branco {
+	background-color: $branco;
+}
+
+ul.navbar-nav > li.nav-item > a.nav-link {
+    background-color: $branco;
+    color: $cor-1;
+    border: 2px solid $branco;
+    border-radius: 15px;
+    &:hover {
+        background-color: $cor-1;
+        color: $branco;
+        border-color: $branco;
+    }
+}

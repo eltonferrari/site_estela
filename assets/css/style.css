@@ -1,0 +1,140 @@
+/* line 5, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Dancing";
+  src: url("../fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+/* line 15, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-dancing {
+  font-family: "Dancing";
+  font-weight: 700;
+}
+
+/* line 21, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-14 {
+  font-size: 14px;
+}
+
+/* line 25, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-16 {
+  font-size: 16px;
+}
+
+/* line 29, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-18 {
+  font-size: 18px;
+}
+
+/* line 33, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* line 37, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-22 {
+  font-size: 22px;
+}
+
+/* line 41, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-24 {
+  font-size: 24px;
+}
+
+/* line 45, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-26 {
+  font-size: 26px;
+}
+
+/* line 49, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-28 {
+  font-size: 28px;
+}
+
+/* line 53, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.font-size-32 {
+  font-size: 32px;
+}
+
+/* line 58, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.cor-1 {
+  color: #a2478a;
+}
+
+/* line 62, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.cor-2 {
+  color: #ee0088;
+}
+
+/* line 66, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.cor-3 {
+  color: #92d7f6;
+}
+
+/* line 70, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.cor-branco {
+  color: #fff;
+}
+
+/* line 74, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.cor-preto {
+  color: #000;
+}
+
+/* line 79, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.negrito {
+  font-weight: bold;
+}
+
+/* line 84, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/* line 89, ../../xampp/htdocs/site_estela/scss/_fontes.scss */
+.animate-character {
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+  animation: textclip 2s linear infinite;
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #a2478a 0%, #92d7f6 34%, #ee0088 66%);
+  font-size: 50px;
+}
+
+/* line 2, ../../xampp/htdocs/site_estela/scss/_links.scss */
+a.no-sub-line {
+  text-decoration: none;
+}
+
+/* line 4, ../../xampp/htdocs/site_estela/scss/_navbar.scss */
+.bg-branco {
+  background-color: #fff;
+}
+
+/* line 8, ../../xampp/htdocs/site_estela/scss/_navbar.scss */
+ul.navbar-nav > li.nav-item > a.nav-link {
+  background-color: #fff;
+  color: #a2478a;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+
+/* line 13, ../../xampp/htdocs/site_estela/scss/_navbar.scss */
+ul.navbar-nav > li.nav-item > a.nav-link:hover {
+  background-color: #a2478a;
+  color: #fff;
+  border-color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
